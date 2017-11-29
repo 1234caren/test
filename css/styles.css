@@ -101,7 +101,7 @@ header .contenedor-buscar{
   padding-top: 5px
 }
 header .btn-ok {
-  background-color: #fff;
+  background-color:red;
   border: 1px solid;
   border-left: 0;
   float: right;
