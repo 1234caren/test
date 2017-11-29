@@ -1,0 +1,568 @@
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+ 
+}
+.sticky{
+  z-index: 9999;
+  position: fixed;
+  margin-top: 0;
+  top: 0;
+  opacity: 1.0;
+  background-color: white;
+  transition: padding-top 1s;
+}
+
+header{
+  width: 100%;
+  margin:0 auto;
+}
+.contenedor{
+  width: 1280px;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+header .envio{
+  background-color: black;
+  text-align: center;
+  height: 33px;
+}
+header .envio span{
+  color:white;
+  font-size: 20px;
+}
+header .envio .envio-uno{
+  position: absolute;
+  left: 491px;
+  top: 6px;
+}
+header .envio .envio-dos{
+  position: absolute;
+  right:483px;
+  top: 6px;
+}
+/*logo*/
+header .col.logo{
+  text-align: center;
+  top: 22px;
+  left: 2px;
+}
+/*estilo de listas*/
+ .listas{
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.listas li{
+  display: inline-block;
+  list-style: none;
+}
+header .usuario:after{
+  content:"\f078";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 11px;
+  padding-left: 9px;
+  line-height: 24px;
+  float: right;
+}
+header .bag:after{
+  content:"\f078";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 11px;
+  padding-left: 9px;
+  line-height: 24px;
+  float: right
+}
+header .lista-usuario{
+  text-align: center;
+  padding-top: 29px;
+}
+header .lista-usuario .user{
+  margin: 0;
+  padding: 0;
+  text-align: end;
+}
+header .lista-usuario .listas .usuario,.bag span{
+  font-size: 14px;
+}
+header .lista-usuario .listas .usuario{
+  padding-right:42px;
+}
+header .lista-usuario .listas img{
+  padding-bottom: 11px;
+}
+header .lista-usuario .listas .imagen-forma4{
+  padding-right: 2px;
+}
+/*buscador*/
+header .contenedor-buscar{
+  float: right;
+  padding-right: 17px;
+  padding-top: 5px
+}
+header .btn-ok {
+  background-color: #fff;
+  border: 1px solid;
+  border-left: 0;
+  float: right;
+  width: 23px;
+  height: 38px;
+      background-image: url(img/forma-1.jpg)
+}
+header fieldset .buscar {
+  border: 1px solid;
+  padding: 0 10px;
+  font-size: 16px;
+  height: 38px;
+  width: 255px;
+  border-right: 0;
+}
+
+/*menu*/
+.menu {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 13px;
+    bottom: 35px;
+}
+nav .nav-menu{
+text-align: center;
+height: 27px;
+}
+nav .menu .lista{
+  float: left;
+  display: inline-block;
+  width: 100%;
+  font-weight: 700;
+  margin: 0;
+}
+nav .menu-dos li{  
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.66px;
+}
+nav li a{
+  text-decoration: none;
+  color: black;
+} 
+li:hover a {
+  text-decoration: none;
+  color: black;
+ 
+  opacity: 0.95;
+}
+.lista-uno{
+  padding: 0 20px;
+  line-height: 46px;
+}
+nav .menu .lista .lista-uno{
+  list-style: none;
+  float: left;
+  padding-left: 17px;
+  padding-bottom: 13px;
+  font-size: 20px;  
+}
+
+/*MENU DOS*/
+.menu-dos {
+    list-style: none;
+    float: left;
+    text-align: left;
+    border-left: 1px solid #dddddd;
+    padding-right: 170px;
+    padding-left: 20px;
+}
+.primero{
+  border-left: 0px;
+}
+.menu-dos ul{
+  padding-left: 1px;
+  }
+.lista .lista-uno:hover{
+  background-color:#eeeeee;
+}
+.lista .lista-uno:hover .column{
+  display: block;
+  opacity: 0.93;
+  padding: 35px;
+  overflow: visible;
+  max-height: initial;
+  position: absolute;
+  z-index: 999;
+
+}
+/*movimiento menu dos*/
+.column ul.menu-dos li:hover{
+  padding-left: 10px;
+  cursor: pointer;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+}
+nav .row .column .menu-dos li{
+  font-size: 10px;
+  padding-top: 5px;
+  font-weight: 400;
+}
+nav .contenedor-menu{
+  text-align: center;
+  right: 19px;
+
+}
+/* DIV */
+.column {
+  display: none;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  background-color:#eeeeee;
+  top: 58px;
+}
+/*section uno*/
+
+/*section dos*/
+.contenedor .titulos{
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+  padding-top: 28px;
+  font-size: 28px;
+  font-weight: 700;
+}
+.contenedor .section-dos{
+  padding-top: 7px;
+}
+/*section tres*/
+.section-tres .coleccion{
+  padding-top: 15px;
+}
+.section-tres .seecolections{
+  position: absolute;
+  top: 50px;
+  right: 3px;
+  color: white;
+  font-size: 13px;
+}
+.section-tres .lista-categoria-dos .seecolections:after{
+  content:'\f105';
+  font: normal normal normal 14px/1 FontAwesome;
+  padding-left: 5px;
+  font-size: 11px;
+}
+.section-tres .colecciones-titulo{
+  color:white;
+  font-size: 42px;
+  font-weight: 800;
+}
+/*color rectangulo*/
+.section-tres .coleccion-dos{
+  position: relative;
+}
+.section-tres .coleccion-dos li{
+  position: absolute;
+  width: 288px;
+  height: 68px;
+}
+/*new arrival*/
+.section-tres .coleccion-dos .lista-categoria-dos.newarrival{
+  background-color: #7aa0dc;
+  position: absolute;
+  bottom: 198px;
+  left: 0px;
+
+}
+.section-tres .coleccion-dos .lista-categoria-dos .newarrival-titulo{
+  position: absolute;
+  bottom: 28px;
+  left:0px;
+
+}
+.coleccion .movimiendo{
+    padding-top: 74px;
+    padding-bottom: 5px;
+}
+/*tacos*/
+.section-tres .coleccion-dos .lista-categoria-dos.tacos {
+    background-color:#e58251;
+    position: absolute;
+    bottom: 38px;
+    left: 111px;
+}
+.section-tres .coleccion-dos .lista-categoria-dos .tacos-titulo{
+  position: absolute;
+  bottom: 28px;
+  left:0px;
+}
+/*plataforma*/
+.section-tres .coleccion-dos .lista-categoria-dos.plataforma {
+    background-color:purple;
+    position: absolute;
+    bottom: 234px;
+    left: 114px;
+}
+.section-tres .coleccion-dos .lista-categoria-dos .plataforma-titulo{
+  position: absolute;
+  bottom: 28px;
+  left:0px;
+
+}
+.movimientodos{
+      padding: 0 19px 0 23px;
+}
+/*section cuatro*/
+.section-dos .recomendados{
+      margin: 0;
+    padding-top: 47px;
+}
+/*section cinco*/
+.contenedor .listas.lista-cinco{
+  padding-top: 34px;
+    padding-left: 0px;
+    padding-bottom: 0;
+}
+.contenedor .lista-catalogo{
+  color: #262626;
+  font-size: 14px;
+  display: block;
+  text-transform: uppercase;
+  padding-top: 16px;
+  padding-right:21px;
+  width: 100%;
+}
+.lista-mover{
+  padding-left: 52px;
+  padding-right: 30px
+}
+.listados.precioant{
+  text-decoration: line-through;
+  font-weight: 700;
+}
+.listados{
+  color: #262626;
+  font-size: 16px;
+}
+.colores{
+  display: block;
+  padding-top: 8px;
+  padding-right: 21px;
+}
+/*section seis*/
+.section-seis{
+  padding-top: 83px;
+
+}
+.layer{
+    padding-left: 50px;
+    padding-top: 8px;}
+.layerdos{    
+  padding-right: 0px;
+    padding-left: 25px;
+  }
+/*section siete*/
+.politica span{
+
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px
+  margin-bottom: 7px;
+  text-align: initial;
+}
+.contenedor .politica p{
+
+  color: black;
+  text-align: initial;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+
+}
+.politica
+{    
+  padding-top: 74px;
+  padding-bottom: 5px;
+  position: relative;
+  display: block;
+}
+.imagenes{
+  float: left;
+  display: inline-block;
+  padding-top: 3px;
+}
+ .texto{
+  text-align: initial;
+ float: left;
+ padding-left: 12px;
+}
+.contenedor-politica{
+  display: inline-block;
+  width: 30%;
+  padding-left: 20px;
+}
+
+/*footer*/
+footer{
+  margin: 0 auto;
+}
+
+footer{
+  background-color:#3e3e3e;
+}
+footer .general .col .lists-general{
+ display: block;
+}
+footer .general .col .lista-general li{
+  list-style: none;
+  display: inline-block;
+  float: left;
+  color: white;
+  font-size: 13px;
+  line-height: 30px;
+  width: 100%;
+  text-align: left;
+}
+footer .general .col .lista-general.lista-seguinos li:before{
+  content: none;
+}
+footer .general .col .lista-general li:before{
+  content: "\f054";
+  font-family: FontAwesome;
+  font-size: 11px;
+  padding-left: 3px;
+  color: white;
+  padding-right: 5px;
+}
+footer .titulo{
+color: #ffffff;
+font-size: 15px;
+font-weight: 700;
+line-height: 40px;
+}
+footer .logo{
+  padding-left: 50px;
+  padding-top: 50px;
+}
+footer .general .col{
+  padding-top: 18px;
+}
+.contenedor{
+  width: 1280px;
+  padding: 0;
+  margin: 0 auto;
+}
+footer .lista-general.lista-continuacion{
+  padding-top: 40px;
+}
+footer .col{
+   border-bottom: 1px solid #ffffff;
+}
+footer .col.imagenes{
+ padding-left: 200px;
+  padding-top: 20px;
+}
+footer .col.imagenes img{
+  padding-left: 10px;
+}
+footer .row .col.imagenes span{
+  display: inline-block;
+  color: white;
+  line-height: 1px;
+  font-size: 13px;
+}
+/*producto*/
+.contenedor-producto{
+  position: relative;
+}
+.filtro{
+  width: 100%;
+}
+.contenedor-producto .col-md-2{
+  position: absolute;
+}
+.filtro span{
+  text-align: initial;
+    border-bottom: 1px solid;
+    text-transform: uppercase;
+    text-align: initial;
+}
+.filtro .color h3{
+  text-align: initial;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #4c4c4c;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #cccccc;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+.filtro .color h3:after{
+content:"\f078";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 8px;
+  line-height: 19px;
+  float: right;
+}
+.filtro .color.open h3:after{
+  content:"\f077";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 8px;
+    line-height: 19px;
+    float: right; 
+}
+.opciones-abrir{
+  padding-top: 7px;
+  padding-bottom: 15px;
+  text-align: initial;
+  display: none;
+}
+.opiones-abrir{
+  display: none;
+}
+.filtro .color .opciones-abrir.abrir{
+  display: block;
+}
+/*fieldset*/
+.orden{
+  float: right;
+    margin-right: 0;
+    margin-top: 0;
+    position: relative;
+    line-height: 35px;
+}
+.ordenado{
+  float: right;
+}
+.desplegable-dos{
+  font-size: 12px;
+    color: #5f5f5f;
+    font-weight: 400;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    min-height: 35px;
+    height: 35px;
+    line-height: 34px;
+    border: 1px solid #e1e1e1;
+    border-radius: 0;
+    cursor: pointer;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+.listas.lista-producto{
+  padding-top: 98px;
+    padding-left: 0px;
+    padding-bottom: 0;
+}
+.lista-mover-producto{
+  padding-left: 53px;
+}
+
+.contenedor-md-3{
+  max-width: 80%;
+  margin: 0 auto;
+}
+.nav.contenedor{
+  display: inline-block;
+}
+
