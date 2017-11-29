@@ -110,7 +110,7 @@ header .btn-ok {
       background-image: url(img/forma-1.jpg)
 }
 header fieldset .buscar {
-  border: 1px solid;
+  border: 1px solid red;
   padding: 0 10px;
   font-size: 16px;
   height: 38px;
